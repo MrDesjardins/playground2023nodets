@@ -1,0 +1,28 @@
+{
+  "name": "commonjavascriptfunctionintypescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "npx tsc && node build/index.js",
+    "test": "npx jest",
+    "test:watch": "npx jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrDesjardins/commonjavascriptfunctionintypescript.git"
+  },
+  "keywords": [],
+  "author": "Patrick Desjardins",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "@types/node": "^20.6.3",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
